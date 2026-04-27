@@ -56,7 +56,7 @@ function Hero() {
     <Section ref={container}>
       <Inner>
         <Badge className="hero-badge">
-          <Dot /> Show &amp; Tell · Spring 2026
+           Show &amp; Tell | Spring 2026
         </Badge>
 
         <Headline>
@@ -104,14 +104,6 @@ const Badge = styled.div`
   font-size: 0.85rem;
   color: var(--text-muted);
   margin-bottom: 2rem;
-`
-
-const Dot = styled.span`
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 12px var(--accent);
 `
 
 const Headline = styled.h1`

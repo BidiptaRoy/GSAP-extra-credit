@@ -58,7 +58,7 @@ function InteractiveSection() {
     <Section ref={container}>
       <Header>
         <Eyebrow>3rd and Final Animation: Interactive Ball!</Eyebrow>
-        <Title>Animations on demand</Title>
+        <Title>A Hands-on Animation</Title>
         <Sub>Hook up GSAP to click handlers, hover states, form events — anything. Try the buttons below.</Sub>
       </Header>
 
