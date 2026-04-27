@@ -16,10 +16,10 @@ import styled from 'styled-components'
  * ------------------------------------------------------------------ */
 
 function Hero() {
-  // 1. Create a ref pointing to our container element
+  // Creates a ref pointing to our container element
   const container = useRef(null)
 
-  // 2. useGSAP() runs animations safely inside React. The "scope" tells GSAP to only target elements inside the container.
+  // useGSAP() runs animations safely inside React. The "scope" tells GSAP to only target elements inside the container.
   useGSAP(
     () => {
       // Animate each line of text from below + transparent → into place

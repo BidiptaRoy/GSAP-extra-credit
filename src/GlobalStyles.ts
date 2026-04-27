@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 //Global styles applied to the whole app.
 //We define our color palette and font here once, so every component can stay consistent.
-//Used a little bit of AI tools to help come up with styling, is that ok?
+//Used a little bit of AI tools to help come up with styling for global and some components, is that ok?
 const GlobalStyles = createGlobalStyle`
   :root {
     --bg: #0a0a0f;

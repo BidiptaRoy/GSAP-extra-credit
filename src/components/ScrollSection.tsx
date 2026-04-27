@@ -23,7 +23,7 @@ function ScrollSection() {
 
   useGSAP(
     () => {
-      // Animate the big rotating square as the user scrolls through this section
+      // Animates the big rotating square as the user scrolls through this section
       gsap.to('.scroll-shape', {
         rotation: 360,
         scale: 1.4,
@@ -37,7 +37,7 @@ function ScrollSection() {
         },
       })
 
-      // Fade & move the labels independently
+      // Fade and move the labels independently
       gsap.to('.scroll-label', {
         x: 200,
         opacity: 0.3,
