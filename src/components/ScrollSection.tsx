@@ -10,10 +10,10 @@ gsap.registerPlugin(ScrollTrigger)
  * SCROLL SECTION
  * ------------------------------------------------------------------
  * What this demonstrates:
- *   - ScrollTrigger with `scrub: true` → animation tied to scroll position
+ *   - ScrollTrigger with `scrub: true` = animation tied to scroll position
  *   - Pinning a section while the user scrolls
  *
- * `scrub: true` means "play the animation forward when scrolling down,
+ * `scrub: true' means "play the animation forward when scrolling down,
  * and backward when scrolling up". The animation progress is locked
  * to the user's scroll progress.
  * ------------------------------------------------------------------ */

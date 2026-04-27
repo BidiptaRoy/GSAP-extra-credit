@@ -8,9 +8,9 @@ import styled from 'styled-components'
  * ------------------------------------------------------------------
  * What this demonstrates:
  *   - Triggering GSAP animations from React event handlers
- *   - useGSAP() with `contextSafe` so cleanup still works correctly
+ *   - useGSAP() with contextSafe so cleanup still works correctly
  *
- * The `contextSafe()` helper wraps event-handler animations so GSAP
+ * The contextSafe() helper wraps event-handler animations so GSAP
  * tracks them and cleans them up when the component unmounts.
  * ------------------------------------------------------------------ */
 

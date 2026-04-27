@@ -9,10 +9,9 @@ gsap.registerPlugin(ScrollTrigger)
 /* ------------------------------------------------------------------
  * HORIZONTAL SCROLL
  * ------------------------------------------------------------------
- * Pin a section in place. As the user scrolls DOWN, translate an
+ * Pin a section in place. As the user scrolls down, translate an
  * inner "track" sideways so panels slide in from the right.
  *
- * The whole trick:
  *   distance = track.scrollWidth - window.innerWidth
  *   animate track.x from 0 → -distance
  *   tie it to scroll with `scrub`
